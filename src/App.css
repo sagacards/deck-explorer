@@ -1,0 +1,23 @@
+.card-grid {
+  padding: 1em;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3em;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+}
+
+.card-image {
+  width: 250px;
+  height: 475px;
+  border: 1px solid rgba(0, 0, 0, .1);
+  border-radius: 12.5px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, .1);
+}
